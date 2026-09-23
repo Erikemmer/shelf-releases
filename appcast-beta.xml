@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Shelf (beta)</title>
+        <link>https://raw.githubusercontent.com/Erikemmer/shelf-releases/main/appcast-beta.xml</link>
+        <description>Pre-release (rc) builds of Shelf.</description>
+        <language>en</language>
+        <!-- No pre-release has been published yet. make release fills this in for an rc version. -->
+    </channel>
+</rss>
