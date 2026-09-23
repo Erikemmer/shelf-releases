@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Throwaway test channel, Sprint 14 Teil C. Points at a local build served
+     from 127.0.0.1, not a real Shelf release. Removed once the live proof of
+     Sparkle's own update path is done. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Shelf (throwaway test channel)</title>
+        <link>https://raw.githubusercontent.com/Erikemmer/shelf-releases/main/appcast-test.xml</link>
+        <description>Sprint 14 Teil C's live proof of Sparkle's own update path. Not a real feed.</description>
+        <language>en</language>
+        <item>
+            <title>Version 9.9.9</title>
+            <description><![CDATA[
+                <h2>Shelf 9.9.9 (test)</h2>
+                <ul>
+                    <li>A fake changelist, for Sprint 14 Teil C's own live proof that
+                        Sparkle's checking, downloading, signature verification and
+                        install-and-relaunch all work end to end.</li>
+                    <li>Nothing in this list describes a real change.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 23 Sep 2026 11:00:00 +0200</pubDate>
+            <sparkle:version>999</sparkle:version>
+            <sparkle:shortVersionString>9.9.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="http://127.0.0.1:8791/Shelf-9.9.9.zip"
+                length="7292028"
+                type="application/octet-stream"
+                sparkle:edSignature="drh6rLpMB29qfKjTyb8c8STvngYEVtp6ZbA6QmYWgWRN+BkPiKFla6D0+wjBl0q8drlvMuzYnBm5iS9g+vx4BA==" />
+        </item>
+    </channel>
+</rss>
