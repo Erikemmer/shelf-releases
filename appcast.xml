@@ -1,10 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Shelf</title>
         <link>https://raw.githubusercontent.com/Erikemmer/shelf-releases/main/appcast.xml</link>
         <description>Stable releases of Shelf.</description>
         <language>en</language>
         <!-- No stable release has been published yet. make release fills this in. -->
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Thu, 24 Sep 2026 09:12:07 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2&gt;Shelf 1.1.0&lt;/h2&gt;
+&lt;h3&gt;Deutsch&lt;/h3&gt;
+&lt;p&gt;Ein Buchcover lässt sich jetzt auf vier Wegen ändern, und auch wieder entfernen — das alte Bild landet im Papierkorb, nie im digitalen Nichts, und ⌘Z macht eine Änderung rückgängig. Für EPUBs gibt es einen expliziten, eigens bestätigten Weg, Metadaten und ein Cover direkt in die Buchdatei selbst zu schreiben, statt nur in Shelfs eigene Ablage daneben — mit einer Bestätigung, die jedes Buch und jedes geänderte Feld einzeln nennt, und die ursprüngliche Datei geht dabei in den Papierkorb, niemals verloren. Ein Import lässt sich jetzt sauber unterbrechen: Shelf beendet sich mittendrin ohne Datenverlust und ohne die falsche Fehlermeldung, die vorher manchmal danach erschien. Und Shelf hält sich ab jetzt selbst auf dem Laufenden — „Shelf ▸ Nach Updates suchen …" zeigt, ob es etwas Neues gibt, und nichts wird ohne einen eigenen Klick auf „Installieren" heruntergeladen oder eingespielt.&lt;/p&gt;
+&lt;h3&gt;English&lt;/h3&gt;
+&lt;p&gt;A book's cover can now be changed four different ways, and removed again — the old picture goes to the Trash, never into the void, and ⌘Z undoes a change. EPUBs have an explicit, separately confirmed way to write metadata and a cover straight into the book file itself, instead of only into Shelf's own file beside it — the confirmation names every book and every changed field, and the original file goes to the Trash, never lost. An import can now be interrupted cleanly: quitting mid-import loses nothing and no longer leaves behind the false error banner it sometimes did before. And Shelf now keeps itself up to date — "Shelf ▸ Check for Updates…" says whether something new exists, and nothing downloads or installs without a click of your own on "Install".&lt;/p&gt;
+</description>
+            <sparkle:releaseNotesLink xml:lang="de">https://github.com/Erikemmer/shelf-releases/releases/download/v1.1.0/Shelf-1.1.0-unsigned.de.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="en">https://github.com/Erikemmer/shelf-releases/releases/download/v1.1.0/Shelf-1.1.0-unsigned.en.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/Erikemmer/shelf-releases/releases/download/v1.1.0/Shelf-1.1.0-unsigned.zip" length="7018972" type="application/octet-stream" sparkle:edSignature="h2EWnJxW6D5PFfvZI5tpC/JHmYlrCDhDsoUFJ+lBrirj7HdbRnFYjZ64z6vPgv8nCfYT76DGzJ5gcmuB2BBTBQ==" />
+        </item>
     </channel>
 </rss>
